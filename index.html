@@ -66,7 +66,7 @@
     }
 
     @keyframes pulse {
-      0 {
+      0% {
         transform: scale(0.95);
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
       }
@@ -99,7 +99,7 @@
     }
 
     h1 {
-      font-size: 2.1rem;
+      font-size: 2.2rem;
       font-weight: 900;
       line-height: 1.25;
       margin-bottom: 16px;
@@ -120,67 +120,11 @@
     }
 
     .subhead {
-      font-size: 1.15rem;
+      font-size: 1.2rem;
       color: var(--text-muted);
       max-width: 680px;
       margin: 0 auto 32px auto;
-    }
-
-    /* Media/Video Placeholder (Light Glassmorphic) */
-    .video-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 24px;
-      padding: 30px;
-      box-shadow: var(--shadow);
-      margin-bottom: 40px;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .video-container {
-      width: 100%;
-      aspect-ratio: 16 / 9;
-      background: #09090b;
-      border-radius: 14px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      border: 1px solid rgba(0, 0, 0, 0.05);
-    }
-
-    .play-hint {
-      color: var(--orange);
-      font-size: 16px;
-      font-weight: 700;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .play-btn {
-      width: 64px;
-      height: 64px;
-      background: rgba(232, 78, 27, 0.1);
-      border: 2px solid var(--orange);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      font-size: 24px;
-      color: var(--orange);
-      transition: all 0.2s ease;
-      box-shadow: 0 0 20px rgba(232, 78, 27, 0.1);
-    }
-
-    .play-btn:hover {
-      background: var(--orange);
-      color: #fff;
-      transform: scale(1.08);
-      box-shadow: 0 0 30px rgba(232, 78, 27, 0.4);
+      line-height: 1.5;
     }
 
     /* Hook / Narrative Section */
@@ -298,24 +242,13 @@
 
   <div class="warning-bar">
     <span class="pulse-badge"></span>
-    ¡ATENCIÓN! No cierres esta página o perderás esta oportunidad única que solo estará activa aquí por tempo limitado.
+    ¡ATENCIÓN! No cierres esta página o perderás esta oportunidad única que solo estará activa aquí por tiempo limitado.
   </div>
 
   <div class="container">
-    <span class="eyebrow">Última oportunidad - Descuento especial</span>
-    <h1><span class="sub-title">¡Espera! No te vayas sin tu asistente...</span>¿Qué tal acceder a CoachBrain AI por solo <span class="highlight">$17</span>?</h1>
-    <p class="subhead">Consigue acceso vitalicio a CoachBrain AI hoy con un descuento exclusivo de $10. Diseña tus entrenamientos en piloto automático.</p>
-
-    <!-- Presentation Video Card -->
-    <div class="video-card">
-      <div class="video-container">
-        <!-- VSL Video element placeholder -->
-        <div class="play-hint">
-          <div class="play-btn">▶</div>
-          <span>Mira este video de 1 minuto para ver el Asistente en acción</span>
-        </div>
-      </div>
-    </div>
+    <span class="eyebrow">Última oportunidad</span>
+    <h1>¡Espera, no dejes pasar esta oportunidad!<br>Esta es tu última chance.</h1>
+    <p class="subhead">Te estoy dando una oportunidad más para adquirir CoachBrain AI de <span style="text-decoration: line-through; opacity: 0.7;">$27</span> por solo <span class="highlight">$17</span>.</p>
 
     <!-- Hook/Narrative Section -->
     <div class="hook-card">
@@ -350,7 +283,7 @@
         <div class="icon-box">🧠</div>
         <div class="benefit-content">
           <h3>Creador de Playbooks y Tácticas</h3>
-          <p>Genera jugadas de pizarra ensayadas, transiciones rápidas y tácticas especiales contra defensas cerradas al instante.</p>
+          <p>Genera jugadas de pizarra ensayadas, transiciones rápidas y tácticas especiais contra defensas cerradas al instante.</p>
         </div>
       </div>
 
